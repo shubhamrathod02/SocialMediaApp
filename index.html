@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <nav>
+        <div class="container">
+            <h2 class="logo">Facelook
+            </h2>
+            <div class="search-bar">  
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search for creators">
+            </div>
+
+           <div class="create">
+            <label class="btn btn-primary" for="create-post">create</label>
+            <div class="profile-photo">
+                <img src="./images/myprofile.png">
+            </div>
+           </div> 
+        </div>
+    </nav>
+    
+    <div>
+        <main>
+<!--------------------Left -->
+         <div class="container">
+            <div class="left">
+                <a  class="profile">
+                    <div class="profile-photo">
+                          <img src="./images/myprofile.png">
+                    </div>
+                    <div class="handle">
+                        <h4>Shubhamrathod</h4>
+                        <P class="text-muted">
+                            <p class="text-muted">
+                                @shubham9632
+                            </p>
+                        </P>
+                    </div>
+                </a>
+
+                <!-----------------   SIDEBAR -->
+
+                <div class="sidebar">
+                    <a  class="menu-item active">
+                        <span><i class="fa-solid fa-house"></i></span><h3>Home</h3>
+                    </a>
+                    <a  class="menu-item">
+                        <span><i class="fa-regular fa-compass"></i></span><h3>Explore</h3>
+                    </a>
+                    <a  class="menu-item" id="Notifications">
+                        <span><i class="fa-solid fa-bell"><small class="notification-count">9+</small></i></span><h3>Notifications</h3>
+
+                        <!------- Nofification popup-------->
+
+                        <div class="notifications-popup" >
+                            <div>
+                              <div class="profile-photo">
+                                  <img src="./images/profile-14.jpg">
+                              </div>
+                              <div class="notification-body">
+                                  <b>Rohit sharma</b> accepted your friend request
+                                  <small class="text-muted">2 Days ago</small>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="profile-photo">
+                                  <img src="./images/profile-13.jpg">
+                              </div>
+                              <div class="notification-body">
+                                  <b>jasprit Bumrah</b> accepted your friend request
+                                  <small class="text-muted">1 Days ago</small>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="profile-photo">
+                                  <img src="./images/profile-12.jpg">
+                              </div>
+                              <div class="notification-body">
+                                  <b>krutika </b> and <b>283 others</b> liked your create-post
+                                  <small class="text-muted">1 hour ago</small>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="profile-photo">
+                                  <img src="./images/profile-2.jpg">
+                              </div>
+                              <div class="notification-body">
+                                  <b>Pratibha Mam</b> Commanted on your Post
+                                  <small class="text-muted">30 min ago</small>
+                              </div>
+                            </div>
+                         </div>
+                     </a>
+
+                    <a  class="menu-item "id="Messages-notifications">
+                        <span><i class="fa-regular fa-envelope"><small class="notification-count"> 5</small></i></span><h3>Messages</h3>
+                    </a>
+
+                    <a  class="menu-item">
+                        <span><i class="fa-regular fa-bookmark"></i></span><h3>Bookmark</h3>
+                    </a>
+
+                    <a  class="menu-item ">
+                        <span><i class="fa-solid fa-chart-line"></i></span><h3>Analytics</h3>
+                    </a>
+
+                    <a  class="menu-item" id="theme">
+                        <span><i class="fa-brands fa-affiliatetheme"></i></span><h3>Theme</h3>
+                    </a>
+
+                    <a  class="menu-item ">
+                        <span><i class="fa-solid fa-gear"></i></span><h3>setting</h3>
+                    </a>
+                </div>
+            
+                <!-----------End sidebar -->
+                
+                <label for="create-post"class="btn btn-primary"> create post</label>
+            </div>
+
+                <!-------------------MIDDLE-->
+            <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-8.jpg">
+                        </div>
+                        <p class="name">Your story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/story.2 AT.jpeg">
+                        </div>
+                        <p class="name">Andrew Tate</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/elon musk.webp">
+                        </div>
+                        <p class="name">Elon Musk</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-16.jpg">
+                        </div>
+                        <p class="name">Lana Rose</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/kohli.jpg">
+                        </div>
+                        <p class="name">Virat Kohli</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="./images/profile-3.jpg">
+                        </div>
+                        <p class="name">Anushka Sharma</p>
+                    </div>
+                </div>
+
+                <!------------------End Story-->
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="./images/myprofile.png">
+                    </div>
+                    <input type="text" placeholder="What's on your Mind ..?" id="create-post">
+                    <input type="submit" value="post" class="btn btn-primary">
+                </form>
+                
+                <!---------Feeds-->
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="./images/story.2 AT.jpeg">
+                                </div>
+                                <div class="info">
+                                    <h3>Andrew Tate</h3>
+                                    <small>United Arab Emirates ,13 Minutes Ago</small>
+                                </div>
+                            </div>
+                            <span class="edit">
+                                <i class="fa-solid fa-ellipsis"></i>
+                            </span>
+                         </div>
+
+                         <div class="photo">
+                            <img src="./images/feed1.jpg">
+                         </div>
+                         <div class="action-button">
+                            <div class="intetaction-button">
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-regular fa-comment"></i></span>
+                                <span><i class="fa-solid fa-share"></i></span>
+
+                            </div>
+                            <div class="bookmark">
+                              <span><i class="fa-regular fa-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="./images/profile-10.jpg"></span>
+                            <span><img src="./images/profile-4.jpg"></span>
+                            <span><img src="./images/profile-15.jpg"></span>
+                            <p>Liked by<b>Virat Kohli</b> and <b>2,323 Others</b></p>
+
+                        </div>
+                        <div class="caption">
+                            <P><b>Virat Kohli</b>Hey good evening world from Andrew tate <span class="hash-tag">#lifestyle</span></P>
+                        </div>
+                        <div class="comments">View all 277 comments</div>
+                        </div>
+
+                        <div class="feed">
+                            <div class="head">
+                                <div class="user">
+                                    <div class="profile-photo">
+                                        <img src="./images/kohli.jpg">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Virat Kohli</h3>
+                                        <small>United Arab Emirates ,13 Minutes Ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                             </div>
+    
+                             <div class="photo">
+                                <img src="./images/feed2.jpg">
+                             </div>
+                             <div class="action-button">
+                                <div class="intetaction-button">
+                                    <span><i class="fa-regular fa-heart"></i></span>
+                                    <span><i class="fa-regular fa-comment"></i></span>
+                                    <span><i class="fa-solid fa-share"></i></span>
+    
+                                </div>
+                                <div class="bookmark">
+                                  <span><i class="fa-regular fa-bookmark"></i></span>
+                                </div>
+                            </div>
+    
+                            <div class="liked-by">
+                                <span><img src="./images/profile-10.jpg"></span>
+                                <span><img src="./images/profile-4.jpg"></span>
+                                <span><img src="./images/profile-15.jpg"></span>
+                                <p>Liked by<b>Virat Kohli</b> and <b>2,323 Others</b></p>
+    
+                            </div>
+                            <div class="caption">
+                                <P><b>Andrew Tate</b>Hey good evening world from Virat KOhli<span class="hash-tag">#lifestyle</span></P>
+                            </div>
+                            <div class="comments">View all 277 comments</div>
+                            </div>
+
+                            <div class="feed">
+                                <div class="head">
+                                    <div class="user">
+                                        <div class="profile-photo">
+                                            <img src="./images/profile-15.jpg">
+                                        </div>
+                                        <div class="info">
+                                            <h3>Elon Musk</h3>
+                                            <small>United Arab Emirates ,13 Minutes Ago</small>
+                                        </div>
+                                    </div>
+                                    <span class="edit">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </span>
+                                 </div>
+        
+                                 <div class="photo">
+                                    <img src="./images/feed3.jpg">
+                                 </div>
+                                 <div class="action-button">
+                                    <div class="intetaction-button">
+                                        <span><i class="fa-regular fa-heart"></i></span>
+                                        <span><i class="fa-regular fa-comment"></i></span>
+                                        <span><i class="fa-solid fa-share"></i></span>
+        
+                                    </div>
+                                    <div class="bookmark">
+                                      <span><i class="fa-regular fa-bookmark"></i></span>
+                                    </div>
+                                </div>
+        
+                                <div class="liked-by">
+                                    <span><img src="./images/profile-10.jpg"></span>
+                                    <span><img src="./images/profile-4.jpg"></span>
+                                    <span><img src="./images/profile-15.jpg"></span>
+                                    <p>Liked by<b>Virat Kohli</b> and <b>2,323 Others</b></p>
+        
+                                </div>
+                                <div class="caption">
+                                    <P><b>Andrew Tate</b>Hey good evening world from Elon Musk <span class="hash-tag">#lifestyle</span></P>
+                                </div>
+                                <div class="comments">View all 277 comments</div>
+                                </div>
+
+                                <div class="feed">
+                                    <div class="head">
+                                        <div class="user">
+                                            <div class="profile-photo">
+                                                <img src="./images/profile-19.jpg">
+                                            </div>
+                                            <div class="info">
+                                                <h3>Mark Zukarberg</h3>
+                                                <small>United Arab Emirates ,13 Minutes Ago</small>
+                                            </div>
+                                        </div>
+                                        <span class="edit">
+                                            <i class="fa-solid fa-ellipsis"></i>
+                                        </span>
+                                     </div>
+            
+                                     <div class="photo">
+                                        <img src="./images/feed4.jpg">
+                                     </div>
+                                     <div class="action-button">
+                                        <div class="intetaction-button">
+                                            <span><i class="fa-regular fa-heart"></i></span>
+                                            <span><i class="fa-regular fa-comment"></i></span>
+                                            <span><i class="fa-solid fa-share"></i></span>
+            
+                                        </div>
+                                        <div class="bookmark">
+                                          <span><i class="fa-regular fa-bookmark"></i></span>
+                                        </div>
+                                    </div>
+            
+                                    <div class="liked-by">
+                                        <span><img src="./images/profile-10.jpg"></span>
+                                        <span><img src="./images/profile-4.jpg"></span>
+                                        <span><img src="./images/profile-15.jpg"></span>
+                                        <p>Liked by<b>Virat Kohli</b> and <b>2,323 Others</b></p>
+            
+                                    </div>
+                                    <div class="caption">
+                                        <P><b>Andrew Tate</b>Hey good evening world from mark<span class="hash-tag">#lifestyle</span></P>
+                                    </div>
+                                    <div class="comments">View all 277 comments</div>
+                                    </div>
+
+                                    <div class="feed">
+                                        <div class="head">
+                                            <div class="user">
+                                                <div class="profile-photo">
+                                                    <img src="./images/dhoni.jpeg">
+                                                </div>
+                                                <div class="info">
+                                                    <h3>M.S. Dhoni</h3>
+                                                    <small>United Arab Emirates ,13 Minutes Ago</small>
+                                                </div>
+                                            </div>
+                                            <span class="edit">
+                                                <i class="fa-solid fa-ellipsis"></i>
+                                            </span>
+                                         </div>
+                
+                                         <div class="photo">
+                                            <img src="./images/feed5.jpg">
+                                         </div>
+                                         <div class="action-button">
+                                            <div class="intetaction-button">
+                                                <span><i class="fa-regular fa-heart"></i></span>
+                                                <span><i class="fa-regular fa-comment"></i></span>
+                                                <span><i class="fa-solid fa-share"></i></span>
+                
+                                            </div>
+                                            <div class="bookmark">
+                                              <span><i class="fa-regular fa-bookmark"></i></span>
+                                            </div>
+                                        </div>
+                
+                                        <div class="liked-by">
+                                            <span><img src="./images/profile-10.jpg"></span>
+                                            <span><img src="./images/profile-4.jpg"></span>
+                                            <span><img src="./images/profile-15.jpg"></span>
+                                            <p>Liked by<b>Virat Kohli</b> and <b>2,323 Others</b></p>
+                
+                                        </div>
+                                        <div class="caption">
+                                            <P><b>Andrew Tate</b>Hey good evening world from mahi <span class="hash-tag">#lifestyle</span></P>
+                                        </div>
+                                        <div class="comments">View all 277 comments</div>
+                                        </div>
+
+                                        <div class="feed">
+                                            <div class="head">
+                                                <div class="user">
+                                                    <div class="profile-photo">
+                                                        <img src="./images/profile-4.jpg">
+                                                    </div>
+                                                    <div class="info">
+                                                        <h3>Krutika </h3>
+                                                        <small>United Arab Emirates ,13 Minutes Ago</small>
+                                                    </div>
+                                                </div>
+                                                <span class="edit">
+                                                    <i class="fa-solid fa-ellipsis"></i>
+                                                </span>
+                                             </div>
+                    
+                                             <div class="photo">
+                                                <img src="./images/feed-6.jpg">
+                                             </div>
+                                             <div class="action-button">
+                                                <div class="intetaction-button">
+                                                    <span><i class="fa-regular fa-heart"></i></span>
+                                                    <span><i class="fa-regular fa-comment"></i></span>
+                                                    <span><i class="fa-solid fa-share"></i></span>
+                    
+                                                </div>
+                                                <div class="bookmark">
+                                                  <span><i class="fa-regular fa-bookmark"></i></span>
+                                                </div>
+                                            </div>
+                    
+                                            <div class="liked-by">
+                                                <span><img src="./images/profile-10.jpg"></span>
+                                                <span><img src="./images/profile-8.jpg"></span>
+                                                <span><img src="./images/profile-14.jpg"></span>
+                                                <p>Liked by<b>Virat Kohli</b> and <b>2,323 Others</b></p>
+                    
+                                            </div>
+                                            <div class="caption">
+                                                <P><b>Andrew Tate</b>Hey good evening world from krutika <span class="hash-tag">#lifestyle</span></P>
+                                            </div>
+                                            <div class="comments">View all 277 comments</div>
+                                            </div>
+
+                                            <div class="feed">
+                                                <div class="head">
+                                                    <div class="user">
+                                                        <div class="profile-photo">
+                                                            <img src="./images/profile-3.jpg">
+                                                        </div>
+                                                        <div class="info">
+                                                            <h3>sherlyn shen</h3>
+                                                            <small>United Arab Emirates ,13 Minutes Ago</small>
+                                                        </div>
+                                                    </div>
+                                                    <span class="edit">
+                                                        <i class="fa-solid fa-ellipsis"></i>
+                                                    </span>
+                                                 </div>
+                        
+                                                 <div class="photo">
+                                                    <img src="./images/feed-7.jpg">
+                                                 </div>
+                                                 <div class="action-button">
+                                                    <div class="intetaction-button">
+                                                        <span><i class="fa-regular fa-heart"></i></span>
+                                                        <span><i class="fa-regular fa-comment"></i></span>
+                                                        <span><i class="fa-solid fa-share"></i></span>
+                        
+                                                    </div>
+                                                    <div class="bookmark">
+                                                      <span><i class="fa-regular fa-bookmark"></i></span>
+                                                    </div>
+                                                </div>
+                        
+                                                <div class="liked-by">
+                                                    <span><img src="./images/profile-6.jpg"></span>
+                                                    <span><img src="./images/profile-4.jpg"></span>
+                                                    <span><img src="./images/profile-12.jpg"></span>
+                                                    <p>Liked by<b>Virat Kohli</b> and <b>2,323 Others</b></p>
+                        
+                                                </div>
+                                                <div class="caption">
+                                                    <P><b>Andrew Tate</b>Hey good evening world from sherlyn <span class="hash-tag">#lifestyle</span></P>
+                                                </div>
+                                                <div class="comments">View all 277 comments</div>
+                                                </div>
+                                         </div>
+                                  </div>
+
+                  <!----------------RIGHT--------------------->
+                   <div class="right">
+                     <div class="messages">
+                        <div class="heading">
+                            <h4>Messages</h4><i class="fa-regular fa-pen-to-square"></i>
+                        </div>
+
+                        <div class="search-bar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="search" placeholder="search messages" id="message-search">
+                        </div>
+                       
+                        <div class="category">
+                            <h6 class="active">Primary</h6>
+                            <h6>General</h6>
+                            <h6 class="message-request">Requests(8)</h6>
+                        </div>
+
+                        <!-------------MESSAGES -------->
+
+                        <div class="message">
+                            <div class="profile-photo">
+                                <img src="./images/profile-11.jpg">
+                            </div>
+
+                            <div class="message-body">
+                                <h5>Edem Markram</h5>
+                                <p class="text-bold">Just wake up bruh</p>
+                            </div>
+                      </div>
+
+                      <div class="message">
+                        <div class="profile-photo">
+                            <img src="./images/profile-16.jpg">
+                        </div>
+
+                        <div class="message-body">
+                            <h5>Lana Rose </h5>
+                            <p class="text-bold">hey man how are you</p>
+                        </div>
+                  </div>
+
+                  <div class="message">
+                    <div class="profile-photo">
+                        <img src="./images/profile-12.jpg">
+                    </div>
+
+                    <div class="message-body">
+                        <h5>Krutika </h5>
+                        <p class="text-bold">Good morning</p>
+                    </div>
+              </div>
+
+              <div class="message">
+                <div class="profile-photo">
+                    <img src="./images/kohli.jpg">
+                </div>
+
+                <div class="message-body">
+                    <h5>Virat Kohli</h5>
+                    <p class="text-bold">Great Match ..</p>
+                </div>
+          </div>
+
+          <div class="message">
+            <div class="profile-photo">
+                <img src="./images/profile-2.jpg">
+                <div class="active"></div>
+            </div>
+
+            <div class="message-body">
+                <h5> Pratibha mam</h5>
+                <p class="text-bold"> focus on study</p>
+            </div>
+      </div>
+                    
+    </div>
+                        
+                     <!----End of messages-->
+
+                     <div class="friend-requests">
+                        <h4>Requests</h4>
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-13.jpg">
+                                </div>
+                            
+                            <div>
+                                <h5>Jasprit Bumrah</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                                <div class="action">
+                                    <button class="btn btn-primary">
+                                        Accept
+                                    </button>
+                                    <button class="btn ">
+                                        Decline
+                                    </button>
+                                </div>
+                        </div>
+
+                        <div class="request">
+                            <div class="info">
+                                <div class="profile-photo">
+                                    <img src="./images/profile-9.jpg">
+                                </div>
+                            
+                            <div>
+                                <h5>Chris gayle</h5>
+                                <p class="text-muted">
+                                    8 mutual friends
+                                </p>
+                            </div>
+                        </div>
+                                <div class="action">
+                                    <button class="btn btn-primary">
+                                        Accept
+                                    </button>
+                                    <button class="btn ">
+                                        Decline
+                                    </button>
+                                </div>  
+                  </div>
+
+                  <div class="request">
+                    <div class="info">
+                        <div class="profile-photo">
+                            <img src="./images/profile-15.jpg">
+                        </div>
+                    
+                    <div>
+                        <h5>Smith</h5>
+                        <p class="text-muted">
+                            15mutual friends
+                        </p>
+                    </div>
+                </div>
+                        <div class="action">
+                            <button class="btn btn-primary">
+                                Accept
+                            </button>
+                            <button class="btn ">
+                                Decline
+                            </button>
+                        </div>
+                  </div>
+               </div>
+        </div>
+    </main>
+              <!------------END RIGHT PART------------>
+
+            
+    
+    <script src="script.js"></script>
+</body>
+</html>
